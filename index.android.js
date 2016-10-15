@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class fbRnLogin extends Component {
+class firebaseReactNativeLogin extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('fbRnLogin', () => fbRnLogin);
+AppRegistry.registerComponent('firebaseReactNativeLogin', () => firebaseReactNativeLogin);
